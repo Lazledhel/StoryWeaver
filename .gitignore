@@ -16,9 +16,14 @@ venv/
 dist/
 dist2/
 dist3/
+Editor/
+Launcher/
+Server/
+updater/
+installer/
+updates/
 **/build/
 **/dist/
-updates/
 installer/dist/
 installer/StoryWeaver_Setup_*.exe
 
