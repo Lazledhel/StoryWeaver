@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# Logs
+*.log
+
+# Build artifacts
+dist/
+dist2/
+dist3/
+**/build/
+**/dist/
+updates/
+installer/dist/
+installer/StoryWeaver_Setup_*.exe
+
+# Local/runtime data
+pass.txt
+**/launcher_config.json
+**/autosave_*.swproj.json
+release/cache/
+release/downloads/
+release/stage/
+Server/activation_keys.json
