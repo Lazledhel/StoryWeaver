@@ -33,6 +33,14 @@ This will create:
 Outputs are placed in:
 `macos/release/`
 
+## DMG (Optional)
+To create a `.dmg` (classic macOS installer image), run:
+```
+./macos/installer/build_dmg.sh
+```
+
+This produces:
+`macos/release/StoryWeaver.dmg`
+
 ## Notes
 - The installer `.app` is a small GUI that copies the apps into `/Applications/StoryWeaver`.
-- If you want a `.dmg`, we can add a DMG step later.
