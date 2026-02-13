@@ -1,0 +1,18 @@
+# Keep repository release-only (no source trees)
+/Editor/
+/Launcher/
+/Server/
+/updater/
+/installer/
+
+# Build/update work directories
+/dist/
+/dist2/
+/dist3/
+/updates/
+
+# Local packaging outputs
+*.zip
+pass.txt
+storyweaver.ico
+/macos/storyweaver.png
